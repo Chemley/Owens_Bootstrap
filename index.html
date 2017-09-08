@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Owens Bootstrap Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .jumbotron {
+      background-color: #ffffff; /* Green */
+      color: #474e5d;
+      text-align: center;
+  }
+  .h3-txt{
+    font-size: 16px;
+    color: #474e5d;
+    text-align: center;
+  }
+  .bg-2 {
+      background-color: #67ffa6; /* Bright green*/
+      color: #474e5d; /* Dark Blue */
+      border-top: 5px solid #474e5d;
+      border-bottom: 5px solid #474e5d;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+    background-color: #67ffa6; /* Bright green*/
+    color: #474e5d; /* Dark Blue */
+    border-top: 5px solid #474e5d;
+    border-bottom: 5px solid #474e5d;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .button {
+      background-color: #ffffff;
+      color: #474e5d;
+      border: 5px solid #474e5d;
+  }
+  .button:hover {
+      background-color: #474e5d;
+      color: #ffffff;
+      border: 5px solid #474e5d;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span>HOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>WHO</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>WHAT</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Welcome -->
+<div class="jumbotron">
+  <h1 class="margin">Welcome to the Futurama Mega Fan Page!</h1>
+</div>
+  <div class="container h3-txt">
+    <img src="/Users/Cana/Desktop/Owens_Bootstrap/images/Futurama-Devil_Hands_640_476.png" class="img-responsive img-rounded margin" style="display:inline" alt="Devils Hands are Idle Playthings" width="350" height="350">
+    <h3>My favroite characters are Fry, Lela,and Bender. My all time favroite episode is<em>The Devil's Hands Are Idle Playthings</em>. In this episode Fry comes to regret making a deal with the devil to win Leela's heart. The image above is from my favroite sceen in that episode.</h3>
+</div>
+
+<!-- About Futurama -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">About Futurama</h3>
+  <img src="/Users/Cana/Desktop/Owens_Bootstrap/images/dr_zoidberg.png" class="img-responsive img-rounded margin" style="display:inline" alt="Dr. Zoidberg" width="350" height="350">
+  <p>Accidentally frozen, pizza-deliverer Fry wakes up 1,000 years in the future. He is taken in by his sole descendant, an elderly and addled scientist who owns a small cargo delivery service. Among the other crew members are Capt. Leela, accountant Hermes, intern Amy, obnoxious robot Bender and lobsterlike moocher "Dr." Zoidberg.</p>
+  <a href="http://www.imdb.com/title/tt0149460/" rel="IMDB" class="btn btn-default btn-lg button">
+    <span class="glyphicon glyphicon-film"></span> IMDB
+  </a>
+</div>
+
+<!-- Image Grid -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Episodes</h3><br>
+  <div class="row">
+    <div class="col-sm-4 col-lg-4">
+      <p><b>Time Keeps On Slipping</b>: The Globetrotters team up with the Planet Express Crew to stop time from slipping away.</p>
+      <img src="/Users/Cana/Desktop/Owens_Bootstrap/images/A_Wrinkle_In_Time.w670.h375.jpg" class="img-responsive margin img-rounded margin" style="width:100%" alt="Time Keeps on Slipping">
+    </div>
+    <div class="col-sm-4 col-lg-4">
+      <p><b>The Day the Earth Stood Stupid</b>: Fry is strangely immune when flying brains invade Earth and reduce other humans to imbecility.</p>
+      <img src="/Users/Cana/Desktop/Owens_Bootstrap/images/the_day_the_earth_stood_stupid_9806.jpg" class="img-responsive margin img-rounded margin" style="width:100%" alt="The Day the Earth Stood Stupid">
+    </div>
+    <div class="col-sm-4 col-lg-4">
+      <p><b>Bender's Big Score</b>: Alien invaders force Bender the robot to travel back in time and steal great treasures.</p>
+      <img src="/Users/Cana/Desktop/Owens_Bootstrap/images/futurama-benders-big-score-leela-lars-marriage-.jpg" class="img-responsive margin img-rounded margin" style="width:100%" alt="Bender's Big Score">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Cana Owens Bootstrap Example</a></p>
+</footer>
+
+</body>
+</html>
